@@ -1,0 +1,89 @@
+.moviedetail 
+{
+    height: calc(100vh - 70px);
+    width: 100vw;
+    background-image: url("../assests/background-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 90px;
+    padding-top: 30px;
+}
+.detail-box 
+{
+    padding-top:10px;
+    width: 600px;
+
+}
+.img-box 
+{
+    height: 260px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-movie 
+{
+    width: 90%;
+    height: 50%;
+}
+.movie-description > h2 
+{
+    margin-left: 30px;
+    color: white;
+    text-transform: lowercase;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.buttons-section 
+{
+    width: 100%;
+}
+.buttons-section 
+{
+    padding-left: 30px;
+    display: flex;
+}
+.primary-button 
+{
+    display: flex;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1rem;
+}
+.primary-button > img 
+{
+    margin-right: 6px;
+}
+.secandory-button 
+{
+    display: flex;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1rem;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-left: 10px;
+}
+.movie_deta 
+{
+    margin-top: 10px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 300;
+    opacity: .9;
+    text-align: justify;
+}

@@ -1,0 +1,39 @@
+
+.slick-arrow 
+{
+    z-index: 5;
+    
+}
+.slick-slider
+{
+height: 400px; 
+}
+.slick-prev 
+{
+    left: 20px;
+}
+.slick-next 
+{
+    right: 20px;
+}
+.slick-dots li button:before
+{
+    color: white; 
+    font-size: 8px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: white;
+}
+.slick-dots 
+{
+    bottom: 42px; 
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: center; 
+    right: 20px;
+}
+.img-width 
+{
+    height: 100%;
+}
