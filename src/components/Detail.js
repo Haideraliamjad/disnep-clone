@@ -17,7 +17,7 @@ const Detail = () => {
                   src="images/play-icon-black.png"
                   alt="res"
                 />
-                Resume
+                Play
               </button>
               <button className="secandory-button">
                 <img

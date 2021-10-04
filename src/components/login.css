@@ -1,0 +1,44 @@
+.login-body 
+{
+    height: calc(100vh - 70px);
+    width: 100vw;
+    background-image: url("../assests/login-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content-box 
+{
+    width: 600px;
+}
+.button_action 
+{
+    width: 500px;
+    display: block;
+    margin: 10px auto;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.6rem; 
+    color: white;
+    background-color: #0271D2;
+    border-radius: 3px;
+}
+.desc 
+{
+    color: white;
+    text-align: center;
+    margin: 15px 0;
+    opacity: .8;
+    cursor: default;
+}
+.bottom_img 
+{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    display: block;
+}
