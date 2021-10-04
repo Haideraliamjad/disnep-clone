@@ -15,16 +15,16 @@ const Sliders = () => {
   return (
     <Slider {...settings}>
       <div>
-        <img src="images/slider-badag.jpg" className="img-width" />
+        <img src="images/slider-badag.jpg" alt="image1" className="img-width" />
       </div>
       <div>
-        <img src="images/slider-scale.jpg" className="img-width" />
+        <img src="images/slider-scale.jpg" alt="image1" className="img-width" />
       </div>
       <div>
-        <img src="images/slider-badging.jpg" className="img-width" />
+        <img src="images/slider-badging.jpg" alt="image1" className="img-width" />
       </div>
       <div>
-        <img src="images/slider-scales.jpg" className="img-width" />
+        <img src="images/slider-scales.jpg" alt="image1" className="img-width" />
       </div>
     </Slider>
   );
